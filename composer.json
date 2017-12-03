@@ -1,0 +1,40 @@
+{
+    "name": "softon/sweetalert",
+    "description": "Laravel 5 Package for SweetAlert2. Use this package to easily show sweetalert2 prompts in your laravel app.",
+    "license": "MIT",
+    "keywords": [
+        "Laravel 5",
+        "SweetAlert2",
+        "POPUP BOXES",
+    ],
+    "authors": [
+        {
+            "name": "Shiburaj",
+            "email": "powerupneo@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.4.0",
+        "illuminate/support": "~5.0|~6.0",
+        "guzzlehttp/guzzle": "~5.0|~6.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Softon\\SweetAlert\\": "src/"
+        },
+        "files": [
+          "src/helpers.php"
+        ]
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Softon\\SweetAlert\\SweetAlertServiceProvider"
+            ],
+            "aliases": {
+                "SWAL": "Softon\\SweetAlert\\Facades\\SWAL"
+            }
+        }
+    },
+    "minimum-stability": "dev"
+}
