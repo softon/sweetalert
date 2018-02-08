@@ -1,5 +1,5 @@
 ## SweetAlert 2
-Laravel 5 Package for <a href="https://limonte.github.io/sweetalert2/">SweetAlert 2</a>. Use this package to easily show sweetalert2 prompts in your laravel app.
+Laravel 5 Package for <a href="https://github.com/sweetalert2/sweetalert2/">SweetAlert 2</a>. Use this package to easily show sweetalert2 prompts in your laravel app.
 
 <strong>Installation</strong>
 
@@ -23,7 +23,7 @@ Laravel 5 Package for <a href="https://limonte.github.io/sweetalert2/">SweetAler
 
 <strong>Config File:</strong>
 
-You can change the basic parameters of the package. Refer the <a href="https://limonte.github.io/sweetalert2/">SweetAlert2</a> Docs for details.
+You can change the basic parameters of the package. Refer the <a href="https://github.com/sweetalert2/sweetalert2/">SweetAlert2</a> Docs for details.
 
 <strong>View Files:</strong>
 
