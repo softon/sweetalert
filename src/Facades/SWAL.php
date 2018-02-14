@@ -2,8 +2,10 @@
 
 use Illuminate\Support\Facades\Facade;
 
-class SWAL extends Facade {
-
-    protected static function getFacadeAccessor() { return 'softon.sweetalert'; }
-
+class SWAL extends Facade
+{
+    protected static function getFacadeAccessor()
+    {
+        return 'softon.sweetalert';
+    }
 }
