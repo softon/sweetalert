@@ -53,55 +53,55 @@ use Softon\SweetAlert\Facades\SWAL;
 
 
 // Params: [Title,Text,Type,Options[]]
-SWAL::message('Good Job','You have successfully Loged In!','info');  
-SWAL::message('Good Job','You have successfully Loged In!','error');  
-SWAL::message('Good Job','You have successfully Loged In!','success',['timer'=>2000]);
+SWAL::message('Good Job','You have successfully logged In!','info');  
+SWAL::message('Good Job','You have successfully logged In!','error');  
+SWAL::message('Good Job','You have successfully logged In!','success',['timer'=>2000]);
 
-// For All avialable options please refer the SweetAlert 2 Docs
+// For All available options please refer the SweetAlert 2 Docs
 
  ```
 
 Showing a Message to User using the swal helper function:-
 ```php
 swal('Your Title','Text');
-swal()->message('Good Job','You have successfully Loged In!','info');  
-swal()->message('Good Job','You have successfully Loged In!','error');  
-swal()->message('Good Job','You have successfully Loged In!','success',['timer'=>2000]);
+swal()->message('Good Job','You have successfully logged In!','info');  
+swal()->message('Good Job','You have successfully logged In!','error');  
+swal()->message('Good Job','You have successfully logged In!','success',['timer'=>2000]);
  ```
 
 Message Type Can be 'warning', 'error', 'success', 'info' and 'question'. Based on this there are some convinence function that can be used instead of the message method.:-
 ```php
 // Params [Title, Text, Options]
-swal()->warning('Good Job','You have successfully Loged In!',[]);
-swal()->error('Good Job','You have successfully Loged In!',[]);
-swal()->success('Good Job','You have successfully Loged In!',[]);
-swal()->info('Good Job','You have successfully Loged In!',[]);
-swal()->question('Good Job','You have successfully Loged In!',[]);
+swal()->warning('Good Job','You have successfully logged In!',[]);
+swal()->error('Good Job','You have successfully logged In!',[]);
+swal()->success('Good Job','You have successfully logged In!',[]);
+swal()->info('Good Job','You have successfully logged In!',[]);
+swal()->question('Good Job','You have successfully logged In!',[]);
 ```
 
 To show modal which will autoclose after few seconds:-
 ```php 
-swal()->autoclose(2000)->message('Good Job','You have successfully Loged In!','info'); 
-swal()->autoclose(5000)->success('Good Job','You have successfully Loged In!'); 
+swal()->autoclose(2000)->message('Good Job','You have successfully logged In!','info'); 
+swal()->autoclose(5000)->success('Good Job','You have successfully logged In!'); 
 ```
 
 To show a toast modal which will autoclose after few seconds:-
 ```php 
-swal()->toast()->autoclose(2000)->message('Good Job','You have successfully Loged In!','info'); 
+swal()->toast()->autoclose(2000)->message('Good Job','You have successfully logged In!','info'); 
 ```
 
 To change confirm button text:-
 ```php 
-swal()->button('Close Me')->message('Good Job','You have successfully Loged In!','info'); 
+swal()->button('Close Me')->message('Good Job','You have successfully logged In!','info'); 
 
 // Button Params [Button Text,Button Colour, SWAL Style Enable / Disable, Style Class for Buttons]
-swal()->button('Close Me','#efefef',false,'btn btn-primary')->info('Good Job','You have successfully Loged In!'); 
+swal()->button('Close Me','#efefef',false,'btn btn-primary')->info('Good Job','You have successfully logged In!'); 
 ```
 
 To change position of the modal:-
 ```php 
 //  Possible Posions : 'top', 'top-left', 'top-right', 'center', 'center-left', 'center-right', 'bottom', 'bottom-left', or 'bottom-right'
-swal()->position('top')->message('Good Job','You have successfully Loged In!','info'); 
+swal()->position('top')->message('Good Job','You have successfully logged In!','info'); 
 ```
 
 You can chain any of these methods to combine the functionality:
