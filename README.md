@@ -37,17 +37,17 @@ This package also includes a SweetAlert2 CDN that you can include if you have no
 For built in views, you can use this in your blade templates before the closing body tag
 
 ```php
-@include('sweetalert::cdn')
+@include('sweetalert::cdn')         // Optional needed only if SweetAlert2 files are not inserted by the developer 
 @include('sweetalert::view')
-@include('sweetalert::validator')
+@include('sweetalert::validator')   // Optional needed only to show form validation errors automatically
 ```
 
 Or for the Published Views use this
 
 ```php
-@include('vendor.sweetalert.cdn')
+@include('vendor.sweetalert.cdn')   // Optional needed only if SweetAlert2 files are not inserted by the developer
 @include('vendor.sweetalert.view')
-@include('vendor.sweetalert.validator')
+@include('vendor.sweetalert.validator')   // Optional needed only to show form validation errors automatically
 ```
 
 ### Configuration
