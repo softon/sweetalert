@@ -1,9 +1,7 @@
 <?php
 
 if (!function_exists('swal')) {
-
-    
-    function swal($title=null,$text=null)
+    function swal($title=null, $text=null)
     {
         $notifier = app('softon.sweetalert');
 
