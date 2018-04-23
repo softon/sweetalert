@@ -75,7 +75,7 @@ Showing a Message to User using the swal helper function:
 
 ```php
 
-//Message Type Can be `warning`, `error`, `success`, `info` and `question`. Based on this there are some convinence function that can be used instead of the message method.:
+// Message Type Can be `warning`, `error`, `success`, `info` and `question`. Based on this there are some convinence function that can be used instead of the message method.:
 swal('Your Title','Text');
 swal()->message('Good Job','You have successfully logged In!','info');  
 swal()->message('Good Job','You have successfully logged In!','error');  
@@ -114,8 +114,8 @@ swal()->button('Close Me','#efefef',false,'btn btn-primary')->info('Good Job','Y
 ```
 
 To change position of the modal:
-
-//  Possible Posions : 'top', 'top-left', 'top-right', 'center', 'center-left', 'center-right', 'bottom', 'bottom-left', or 'bottom-right'
+```php
+// Possible Posions : 'top', 'top-left', 'top-right', 'center', 'center-left', 'center-right', 'bottom', 'bottom-left', or 'bottom-right'
 swal()->position('top')->message('Good Job','You have successfully logged In!','info'); 
 ```
 
