@@ -115,7 +115,7 @@ swal()->button('Close Me','#efefef',false,'btn btn-primary')->info('Good Job','Y
 
 To change position of the modal:
 ```php
-// Possible Posions : 'top', 'top-left', 'top-right', 'center', 'center-left', 'center-right', 'bottom', 'bottom-left', or 'bottom-right'
+// Possible Positions : `top`, `top-left`, `top-right`, `center`, `center-left`, `center-right`, `bottom`, `bottom-left`, or `bottom-right`
 swal()->position('top')->message('Good Job','You have successfully logged In!','info'); 
 ```
 
